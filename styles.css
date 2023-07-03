@@ -68,47 +68,47 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
+  color: black;
 }
+
 #hero {
   display: flex;
   padding: 60px 0;
-  justify-content: center;
-  align-items: center;
   max-width: 1400px;
+  justify-content: center;
 }
 
-.hero_portada {
+.hero_info {
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 50%;
 }
 
-.hero_portada h1 {
+.hero_info h1 {
   font-size: 40px;
   width: 80%;
   min-width: 400px;
   font-weight: 700;
 }
-.hero_portada p {
+.hero_info p {
   font-size: 20px;
   width: 70%;
+  color: black;
 }
 
-.hero_portada p > span {
+.hero_info p > span {
   font-weight: 800;
 }
-
-.hero_portada a {
+.hero_info a {
+  color: yellow;
+  background-color: #2a6259;
   width: 150px;
-  padding: 10px 0px;
-  display: inline-block;
-  align-items: center;
-  text-align: center;
+  padding: 10px 0;
   border-radius: 20px;
-  color: #2a6259;
-  background-color: #f7df05;
+  font-size: 14px;
   text-decoration: none;
+  text-align: center;
 }
 
 .hero_logo {
@@ -116,18 +116,17 @@ main {
   width: 350px;
   padding: 20px;
   display: flex;
-  gap: 10px;
-  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 }
 
 .hero_parrafo {
   display: flex;
-  text-align: center;
   justify-content: center;
-  gap: 20px;
-  max-width: 1200px;
-  flex-direction: column;
-  gap: 80px;
+  text-align: center;
+  font-size: 20px;
+  width: 70%;
 }
 
 .hero_parrafo p > span {
