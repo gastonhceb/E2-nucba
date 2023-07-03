@@ -8,7 +8,7 @@
   font-size: 20px;
 }
 
-body {
+.body {
   background-color: #ffeb94;
 }
 
@@ -59,4 +59,77 @@ body {
 
 .header .nav-links li a:hover {
   color: #e0e0e0;
+}
+
+main {
+  background-color: #f27a18;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#hero {
+  display: flex;
+  padding: 60px 0;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+}
+
+.hero_portada {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.hero_portada h1 {
+  font-size: 40px;
+  width: 80%;
+  min-width: 400px;
+  font-weight: 700;
+}
+.hero_portada p {
+  font-size: 20px;
+  width: 70%;
+}
+
+.hero_portada p > span {
+  font-weight: 800;
+}
+
+.hero_portada a {
+  width: 150px;
+  padding: 10px 0px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  color: #2a6259;
+  background-color: #f7df05;
+  text-decoration: none;
+}
+
+.hero_logo {
+  height: 350px;
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.hero_parrafo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.hero_parrafo p > span {
+  font-weight: 800;
 }
