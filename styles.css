@@ -13,7 +13,7 @@
 }
 
 .header {
-  background-color: #fdd475;
+  background: linear-gradient(to top, #d9c620, #e38800);
   display: flex;
   justify-content: space-around;
   padding: 1rem;
@@ -34,12 +34,12 @@
   list-style: none;
 }
 .header .nav-links li {
-  background-color: #f27a18;
+  background: linear-gradient(to top, #ff6f00, #fffb00);
   border: none;
   border-radius: 20px;
-  padding: 10px;
+  padding: 50px;
   width: fit-content;
-  margin: 10px 0;
+  margin: 30px 0;
 }
 
 .header .nav-links li {
@@ -54,7 +54,7 @@
 .header .nav-links a {
   font-size: 600;
   text-decoration: none;
-  color: #2a6259;
+  color: black;
 }
 
 .header .nav-links li a:hover {
@@ -90,6 +90,10 @@ main {
   width: 80%;
   min-width: 400px;
   font-weight: 700;
+  background: linear-gradient(to top, #d92020, #013652);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
 }
 .hero_info p {
   font-size: 20px;
@@ -100,15 +104,29 @@ main {
 .hero_info p > span {
   font-weight: 800;
 }
-.hero_info a {
-  color: yellow;
-  background-color: #2a6259;
-  width: 150px;
-  padding: 10px 0;
-  border-radius: 20px;
-  font-size: 14px;
+
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+
+.button-container a {
   text-decoration: none;
   text-align: center;
+  border: 2px solid #2a6259;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.primary-btn {
+  background-color: #2a6259;
+  color: white;
+}
+.alt-btn {
+  background-color: white;
+  color: #2a6259;
 }
 
 .hero_logo {
@@ -131,4 +149,54 @@ main {
 
 .hero_parrafo p > span {
   font-weight: 800;
+}
+
+#info {
+  padding: 60px 0px;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+#info h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.info-bnf {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bnf {
+  width: 300px;
+  padding: 40px 30 px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#info h3 {
+  padding: 20px 0px;
+}
+.info-bnf img {
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-bnf p {
+  font-size: 14 px;
+  font-weight: 300;
 }
