@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "Belanosima";
   font-size: 20px;
 }
 
@@ -199,4 +198,103 @@ main {
 .info-bnf p {
   font-size: 14 px;
   font-weight: 300;
+}
+
+#Ctc-us {
+  padding: 20px 0px;
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#Ctc-us h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ubi {
+  display: flex;
+  height: 350px;
+  width: 450px;
+  padding: 20px 0px;
+  gap: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer {
+  background-color: #0f232e;
+  padding: 30px 0;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-links h4 {
+  font-size: 20px;
+  color: #ffeb94;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #ec1515;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-links ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #bbbbbb;
+  display: block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #ffffff;
+  padding-left: 6px;
+}
+
+.social-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.social-link a:hover {
+  background-color: #00c3ff;
+}
+
+@media (max-width: 991px) {
+  .footer-row {
+    text-align: center;
+  }
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
